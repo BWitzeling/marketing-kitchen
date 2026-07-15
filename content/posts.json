@@ -23,6 +23,20 @@
   ],
   "posts": [
     {
+      "id": "leontine-20260715-190044",
+      "title": "Leontine",
+      "category": "restaurants",
+      "excerpt": "Ich mag ja eigentlich keine französischen Lokale - aber der Koch stammt zwar aus Frankreich - hat aber wohl eine starke Verbindung zum Baskenland. Damit ist wieder alles in Ordnung. Die französischen Weine sind ebenso wirklich - auch wenn überraschen für mich der Spanien und Österreich bevorzugt wirklich OK ;-)",
+      "image": "assets/uploads/20260715-190044-leontine.jpg",
+      "imageAlt": "Leontine",
+      "url": "https://www.leontine.at/",
+      "linkText": "Website besuchen",
+      "badge": "all time favorite",
+      "featured": true,
+      "published": true,
+      "publishedAt": "2026-07-15T19:00:44+02:00"
+    },
+    {
       "id": "global-g-2-kochmesser-20260715-185139",
       "title": "Global G-2 Kochmesser",
       "category": "kitchen",
