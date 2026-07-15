@@ -21,5 +21,20 @@
       "emailAlias": "tech"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "global-g-2-kochmesser-20260715-185139",
+      "title": "Global G-2 Kochmesser",
+      "category": "kitchen",
+      "excerpt": "Eines der besten Messer, die ich je verwendet habe. Es liegt hervorragend in der Hand und bleibt sehr lange scharf. Dazu gibt es auch einen passenden Messerschärfer, der auch hier zu finden ist, der aber nicht von Global sondern unter einer anderen Marke angeboten wird - Minosharp.",
+      "image": "assets/uploads/20260715-185139-global-g-2-kochmesser.jpg",
+      "imageAlt": "Global G-2 Kochmesser",
+      "url": "https://www.amazon.de/gp/aw/d/B00005OL44/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=550a54389a9a6043d64bf22bb31bfbfb&hsa_cr_id=0&qid=1784133881&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=ct8j9vcZ1h&ref_=sbx_s_sparkle_sbtcd_asin_0_title&pd_rd_w=LyWXz&content-id=amzn1.sym.67616a74-5971-4136-9787-0edce4b0e77e%3Aamzn1.sym.67616a74-5971-4136-9787-0edce4b0e77e&pf_rd_p=67616a74-5971-4136-9787-0edce4b0e77e&pf_rd_r=7X80PF7J25W8CVS0E96B&pd_rd_wg=vkUEn&pd_rd_r=c4c5e8cc-8520-42e2-a69d-d09ea6f759e5r",
+      "linkText": "Produkt ansehen",
+      "badge": "Persönlicher Favorit",
+      "featured": true,
+      "published": true,
+      "publishedAt": "2026-07-15T18:51:39+02:00"
+    }
+  ]
 }
