@@ -1,0 +1,54 @@
+{
+  "site": {
+    "eyebrow": "Persönlich ausgewählt",
+    "intro": "Restaurants, Küchenwerkzeug und Technik, die im Alltag wirklich Freude machen.",
+    "about": "Hier landen persönliche Empfehlungen aus Kulinarik und Technik: knapp beschrieben, sauber kategorisiert und ohne unnötiges Drumherum. Neue Einträge können per E-Mail oder über ein kleines, geschütztes Formular veröffentlicht werden."
+  },
+  "categories": [
+    {
+      "id": "restaurants",
+      "label": "Restaurants",
+      "emailAlias": "restaurant"
+    },
+    {
+      "id": "kitchen",
+      "label": "Küchen-Hardware",
+      "emailAlias": "kueche"
+    },
+    {
+      "id": "tech",
+      "label": "Tech-Gadgets",
+      "emailAlias": "tech"
+    }
+  ],
+  "posts": [
+    {
+      "id": "leontine-wien",
+      "title": "Leontine",
+      "category": "restaurants",
+      "excerpt": "Es gibt in Wien wohl keine bessere Adresse für einen Lunch – besonders am Freitag. Französische Finesse trifft Wiener Herzlichkeit.",
+      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1400&auto=format&fit=crop",
+      "imageAlt": "Gedeckter Tisch in einem Restaurant",
+      "url": "https://www.leontine.at",
+      "linkText": "Tisch reservieren",
+      "badge": "Wien 1030",
+      "featured": true,
+      "published": true,
+      "publishedAt": "2026-07-01T10:00:00+02:00"
+    },
+    {
+      "id": "global-kuechenmesser",
+      "title": "Küchenmesser von Global",
+      "category": "kitchen",
+      "excerpt": "Eines der besten Messer, die ich je verwendet habe: liegt gut in der Hand, bleibt lange scharf und macht tägliche Küchenarbeit deutlich angenehmer.",
+      "image": "assets/uploads/placeholder.svg",
+      "imageAlt": "Platzhalter für ein Küchenmesser",
+      "url": "https://www.amazon.at/",
+      "linkText": "Produkt ansehen",
+      "badge": "Persönlicher Favorit",
+      "featured": false,
+      "published": true,
+      "publishedAt": "2026-07-15T09:00:00+02:00"
+    }
+  ]
+}

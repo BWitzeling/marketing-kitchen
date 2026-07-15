@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Marketing-Kitchen: persönliche Empfehlungen für Restaurants, Küchen-Hardware und Tech-Gadgets.">
+  <meta name="theme-color" content="#f5efe5">
+  <title>Marketing-Kitchen | Gute Dinge. Ehrlich empfohlen.</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#posts">Direkt zu den Empfehlungen</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Marketing-Kitchen Startseite">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <path d="M15 15h34v8H15zM19 27h26v22H19z" fill="currentColor" opacity=".18"/>
+            <path d="M14 20h36M20 28v21h24V28M27 28v-8m10 8v-8" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span>Marketing-<strong>Kitchen</strong></span>
+      </a>
+      <a class="header-link" href="#about">Über diese Sammlung</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow" id="hero-eyebrow">Persönlich ausgewählt</p>
+        <h1 id="hero-title">Gute Dinge.<br><em>Ehrlich empfohlen.</em></h1>
+        <p class="hero-intro" id="hero-intro">Restaurants, Küchenwerkzeug und Technik, die im Alltag wirklich Freude machen.</p>
+      </div>
+      <aside class="hero-note" aria-label="Prinzip der Website">
+        <span class="note-number">01</span>
+        <p>Keine endlosen Bestenlisten. Nur Dinge und Orte, die ich selbst empfehlen würde.</p>
+      </aside>
+    </section>
+
+    <section class="discovery" aria-label="Empfehlungen filtern">
+      <div class="toolbar">
+        <div class="filters" id="category-filters" role="group" aria-label="Kategorien">
+          <button class="filter-button is-active" type="button" data-category="all" aria-pressed="true">Alles</button>
+        </div>
+        <label class="search">
+          <span class="sr-only">Empfehlungen durchsuchen</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15A7.5 7.5 0 1 1 4 11.5a7.5 7.5 0 0 1 15 0Z"/></svg>
+          <input id="search-input" type="search" placeholder="Suchen …" autocomplete="off">
+        </label>
+      </div>
+
+      <div class="results-meta" aria-live="polite">
+        <p id="results-count">Empfehlungen werden geladen …</p>
+      </div>
+
+      <div class="post-grid" id="posts" aria-live="polite" aria-busy="true"></div>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <p class="eyebrow">Nichts gefunden</p>
+        <h2>Diese Kombination ist noch nicht in der Kitchen.</h2>
+        <button type="button" id="reset-filters">Alle Empfehlungen anzeigen</button>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div>
+        <p class="eyebrow">Über Marketing-Kitchen</p>
+        <h2>Ein digitales Küchenregal für gute Entdeckungen.</h2>
+      </div>
+      <p id="about-text">Hier landen persönliche Empfehlungen aus Kulinarik und Technik: knapp beschrieben, sauber kategorisiert und ohne unnötiges Drumherum.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="current-year"></span> Marketing-Kitchen</p>
+    <p>Persönliche Empfehlungen · Externe Links öffnen in einem neuen Fenster</p>
+  </footer>
+
+  <template id="post-template">
+    <article class="post-card">
+      <a class="post-image-link" target="_blank" rel="noopener noreferrer">
+        <div class="post-image-wrap">
+          <img class="post-image" alt="" loading="lazy" decoding="async">
+          <span class="post-badge"></span>
+        </div>
+      </a>
+      <div class="post-body">
+        <div class="post-meta">
+          <span class="post-category"></span>
+          <time class="post-date"></time>
+        </div>
+        <h2 class="post-title"></h2>
+        <p class="post-excerpt"></p>
+        <a class="post-link" target="_blank" rel="noopener noreferrer">
+          <span class="post-link-label"></span>
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </article>
+  </template>
+
+  <noscript>
+    <p class="noscript">Für die dynamische Darstellung der Empfehlungen muss JavaScript aktiviert sein.</p>
+  </noscript>
+</body>
+</html>

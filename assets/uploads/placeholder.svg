@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Marketing-Kitchen Platzhalter</title>
+  <desc id="desc">Abstrakte Illustration eines Küchenregals</desc>
+  <rect width="1200" height="900" fill="#e8dfd2"/>
+  <circle cx="990" cy="170" r="190" fill="#d9512c" opacity=".16"/>
+  <circle cx="170" cy="760" r="230" fill="#315b45" opacity=".13"/>
+  <g fill="none" stroke="#1f2722" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" opacity=".8">
+    <path d="M310 260h580M370 380v270h460V380M480 380V260M720 380V260"/>
+    <path d="M440 505h320M440 585h220" opacity=".45"/>
+  </g>
+  <text x="600" y="760" text-anchor="middle" fill="#1f2722" font-family="Arial, sans-serif" font-size="48" font-weight="700">Marketing-Kitchen</text>
+</svg>
