@@ -21,48 +21,5 @@
       "emailAlias": "tech"
     }
   ],
-  "posts": [
-    {
-      "id": "global-g-2-kochmesser-mit-20-cm-klinge-20260715-170618",
-      "title": "Global G-2 Kochmesser mit 20 cm Klinge",
-      "category": "kitchen",
-      "excerpt": "ist wirklich eines der besten Messer, die ich je hatte. Es liegt sehr gut in der Hand und bleibt lange scharf.",
-      "image": "assets/uploads/20260715-170618-global-g-2-kochmesser-mit-20-cm-klinge.jpg",
-      "imageAlt": "Global G-2 Kochmesser mit 20 cm Klinge",
-      "url": "https://www.amazon.de/gp/aw/d/B00005OL44/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=550a54389a9a6043d64bf22bb31bfbfb&hsa_cr_id=0&qid=1784127795&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=ct8j9vcZ1h&ref_=sbx_s_sparkle_sbtcd_asin_0_title&pd_rd_w=aJ0dk&content-id=amzn1.sym.67616a74-5971-4136-9787-0edce4b0e77e%3Aamzn1.sym.67616a74-5971-4136-9787-0edce4b0e77e&pf_rd_p=67616a74-5971-4136-9787-0edce4b0e77e&pf_rd_r=C2KNHEN1E2J44F3SFARG&pd_rd_wg=MYtWB&pd_rd_r=a8307791-d5e0-42a2-9770-5c1073b6454e",
-      "linkText": "Bei Amazon ansehen",
-      "badge": "Persönlicher Favorit Linktext: Bei Amazon ansehen Featured: ja Das",
-      "featured": false,
-      "published": true,
-      "publishedAt": "2026-07-15T17:06:18+02:00"
-    },
-    {
-      "id": "leontine-wien",
-      "title": "Leontine",
-      "category": "restaurants",
-      "excerpt": "Es gibt in Wien wohl keine bessere Adresse für einen Lunch – besonders am Freitag. Französische Finesse trifft Wiener Herzlichkeit.",
-      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1400&auto=format&fit=crop",
-      "imageAlt": "Gedeckter Tisch in einem Restaurant",
-      "url": "https://www.leontine.at",
-      "linkText": "Tisch reservieren",
-      "badge": "Wien 1030",
-      "featured": true,
-      "published": true,
-      "publishedAt": "2026-07-01T10:00:00+02:00"
-    },
-    {
-      "id": "global-kuechenmesser",
-      "title": "Küchenmesser von Global",
-      "category": "kitchen",
-      "excerpt": "Eines der besten Messer, die ich je verwendet habe: liegt gut in der Hand, bleibt lange scharf und macht tägliche Küchenarbeit deutlich angenehmer.",
-      "image": "assets/uploads/placeholder.svg",
-      "imageAlt": "Platzhalter für ein Küchenmesser",
-      "url": "https://www.amazon.at/",
-      "linkText": "Produkt ansehen",
-      "badge": "Persönlicher Favorit",
-      "featured": false,
-      "published": true,
-      "publishedAt": "2026-07-15T09:00:00+02:00"
-    }
-  ]
+  "posts": []
 }
